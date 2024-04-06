@@ -48,7 +48,8 @@ follow the below steps:
 
 ## Screenshots
 
-![alt text](<Screenshot 2024-04-06 160340.png>)
+<img width="845" alt="Screenshot 2024-04-06 160340" src="https://github.com/pabbathikarthikeya/Diabetes-Predictor/assets/124424165/8702b92d-885c-4e41-85c0-37908cc29d93">
+
 
 ![alt text](<Screenshot 2024-04-06 161439.png>)
 
