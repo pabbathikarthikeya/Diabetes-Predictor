@@ -50,12 +50,11 @@ follow the below steps:
 
 <img width="845" alt="Screenshot 2024-04-06 160340" src="https://github.com/pabbathikarthikeya/Diabetes-Predictor/assets/124424165/8702b92d-885c-4e41-85c0-37908cc29d93">
 
+<img width="929" alt="Screenshot 2024-04-06 161439" src="https://github.com/pabbathikarthikeya/Diabetes-Predictor/assets/124424165/d5d5680d-aab3-44f2-af7d-dffc45c9fb4c">
 
-![alt text](<Screenshot 2024-04-06 161439.png>)
+<img width="541" alt="Screenshot 2024-04-06 161627" src="https://github.com/pabbathikarthikeya/Diabetes-Predictor/assets/124424165/f6b81ff6-4ba3-4919-a4c6-293582de9d7c">
 
-![alt text](<Screenshot 2024-04-06 161627-1.png>)
-
-![alt text](<Screenshot 2024-04-06 161911.png>)
+<img width="511" alt="Screenshot 2024-04-06 161911" src="https://github.com/pabbathikarthikeya/Diabetes-Predictor/assets/124424165/025f6a62-4720-468d-861e-c2e70d784831">
 
 
 ## Used By
