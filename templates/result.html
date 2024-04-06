@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Results</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .result-message {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            transform: scale(0.9);
+            transition: transform 0.3s ease-in-out;
+            animation: slideIn 1s ease-out;
+        }
+
+        .result-message:hover {
+            transform: scale(1);
+        }
+
+        .result-message img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .warning {
+            border: 2px solid #e74c3c;
+        }
+
+        .success {
+            border: 2px solid #2ecc71;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Diabetes Test Results</h1>
+    </header>
+
+    <section>
+        {% if prediction == 1 %}
+        <div class="result-message warning">
+            <h2>Chances of having Diabetes are more, please consult a Doctor.</h2>
+            <img src= "/templates/pic1.jpg" alt = "No Photo Display">
+        </div>
+        {% elif prediction == 0 %}
+        <div class="result-message success">
+            <h2>No Worries! You don't have Diabetes.</h2>
+            <img src= "/templates/diabetes.jpg" alt = "No Photo Display">
+        </div>
+        {% endif %}
+    </section>
+
+</body>
+
+</html>
